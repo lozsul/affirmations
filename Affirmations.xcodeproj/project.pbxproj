@@ -7,19 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0BE0A3025E313F2004EA804 /* RougeScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0BE0A2F25E313F2004EA804 /* RougeScript-Regular.ttf */; };
-		F0BE0A3325E313FD004EA804 /* Qwigley-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0BE0A3225E313FD004EA804 /* Qwigley-Regular.ttf */; };
 		F0BE0A3625E31411004EA804 /* EuphoriaScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0BE0A3525E31411004EA804 /* EuphoriaScript-Regular.ttf */; };
 		F0CB866C25E2EEE100DF2875 /* AffirmationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB866B25E2EEE100DF2875 /* AffirmationsApp.swift */; };
 		F0CB866E25E2EEE100DF2875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB866D25E2EEE100DF2875 /* ContentView.swift */; };
 		F0CB867025E2EEE200DF2875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CB866F25E2EEE200DF2875 /* Assets.xcassets */; };
 		F0CB867325E2EEE200DF2875 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CB867225E2EEE200DF2875 /* Preview Assets.xcassets */; };
-		F0CB867E25E30E3100DF2875 /* OvertheRainbow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0CB867D25E30E3100DF2875 /* OvertheRainbow-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0BE0A2F25E313F2004EA804 /* RougeScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RougeScript-Regular.ttf"; sourceTree = "<group>"; };
-		F0BE0A3225E313FD004EA804 /* Qwigley-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qwigley-Regular.ttf"; sourceTree = "<group>"; };
 		F0BE0A3525E31411004EA804 /* EuphoriaScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuphoriaScript-Regular.ttf"; sourceTree = "<group>"; };
 		F0CB866825E2EEE100DF2875 /* Affirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirmations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CB866B25E2EEE100DF2875 /* AffirmationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsApp.swift; sourceTree = "<group>"; };
@@ -27,7 +22,6 @@
 		F0CB866F25E2EEE200DF2875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0CB867225E2EEE200DF2875 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0CB867425E2EEE200DF2875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0CB867D25E30E3100DF2875 /* OvertheRainbow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OvertheRainbow-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +58,6 @@
 				F0CB866D25E2EEE100DF2875 /* ContentView.swift */,
 				F0CB866F25E2EEE200DF2875 /* Assets.xcassets */,
 				F0BE0A3525E31411004EA804 /* EuphoriaScript-Regular.ttf */,
-				F0CB867D25E30E3100DF2875 /* OvertheRainbow-Regular.ttf */,
-				F0BE0A2F25E313F2004EA804 /* RougeScript-Regular.ttf */,
-				F0BE0A3225E313FD004EA804 /* Qwigley-Regular.ttf */,
 				F0CB867425E2EEE200DF2875 /* Info.plist */,
 				F0CB867125E2EEE200DF2875 /* Preview Content */,
 			);
@@ -138,11 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0CB867E25E30E3100DF2875 /* OvertheRainbow-Regular.ttf in Resources */,
-				F0BE0A3025E313F2004EA804 /* RougeScript-Regular.ttf in Resources */,
 				F0CB867325E2EEE200DF2875 /* Preview Assets.xcassets in Resources */,
 				F0CB867025E2EEE200DF2875 /* Assets.xcassets in Resources */,
-				F0BE0A3325E313FD004EA804 /* Qwigley-Regular.ttf in Resources */,
 				F0BE0A3625E31411004EA804 /* EuphoriaScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +272,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Affirmations/Preview Content\"";
 				DEVELOPMENT_TEAM = GGZ2R9UHLN;
 				ENABLE_PREVIEWS = YES;
@@ -307,7 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Affirmations/Preview Content\"";
 				DEVELOPMENT_TEAM = GGZ2R9UHLN;
 				ENABLE_PREVIEWS = YES;

@@ -10,30 +10,66 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var affirmations = [
-        "I am fearless and brave.",
-        "I am built for birth.",
-        "Billions of women have done this before me.",
-        "I am the boss.",
-        "This feeling is temporary. It's not forever.",
-        "I have treated my body well naturally and indulgently. My body knows what to do for birth and will treat me well.",
-        "My birth is full of possibilities.",
-        "I am the epicenter. It is my birth, my baby, my strength and power that will bring baby into the world.",
-        "Focus. Take each one at a time.",
-        "My body was made to do this.",
-        "My baby and I are working together.",
         "A break is coming.",
-        "This is the day we've been waiting for. I am ready.",
-        "Each surge brings my baby closer.",
+        "Actually, I can.",
+        "Billions of women have done this before me.",
+        "Birth is miraculous however it happens.",
+        "Birth is normal and natural.",
+        "Birth is powerful. I will let it empower me.",
+        "Breathe in, breathe out. One wave at a time.",
+        "Breathe.",
         "Bring it on.",
+        "Don't forget to have a good time.",
+        "Each surge brings my baby closer.",
+        "Each wave has a purpose.",
+        "Even though I may feel overwhelmed, I can still do this.",
+        "Focus. Take each one at a time.",
+        "Good things are going to happen.",
+        "Good, strong contractions will help me meet my baby.",
+        "I am a force to be reckoned with.",
+        "I am about to meet my baby.",
+        "I am built for birth.",
+        "I am fearless and brave.",
+        "I am fierce but flexible.",
+        "I am going to rock this birth thing.",
         "I am present. I am doing this. We are doing this.",
+        "I am stronger than this contraction.",
+        "I am the boss.",
+        "I am the epicenter. It is my birth, my baby, my strength and power that will bring baby into the world.",
+        "I believe in me.",
+        "I can do anything for 1 minute.",
+        "I choose love, not fear.",
+        "I give this birth everything I have, I hold nothing back.",
+        "I got this.",
+        "I have strength I didn’t know existed.",
+        "I have treated my body well, naturally and indulgently. My body knows what to do for birth and will treat me well.",
         "I let my body and our baby set the pace.",
         "I relax and my baby relaxes with me.",
-        "I am fierce but flexible.",
-        "My body is capable and strong.",
+        "I relax my jaw. I quiet my mind. My body will open. My baby will come.",
+        "I'm doing better than I think.",
+        "I'm not a worrier, I'm a warrior.",
+        "I've got my positive pants on.",
+        "It will happen as soon as it is time.",
+        "It's not pain, it's power.",
+        "Many women have birthed before me, and many will birth after.",
+        "My baby and I are working together.",
         "My baby trusts me and I trust this process.",
-        "Birth is powerful. I will let it empower me.",
-        "I am stronger than this contraction.",
-        "Birth is normal and natural."
+        "My baby will be strong, happy, and healthy.",
+        "My birth is full of possibilities.",
+        "My body and baby are healthy and strong.",
+        "My body is capable and strong.",
+        "My body was made to do this.",
+        "Ride the wave.",
+        "She believed she could and so she did.",
+        "Slow down. Calm down. Don't worry. Don't hurry.",
+        "Storms don't last forever.",
+        "The ability to give birth is a gift.",
+        "The body achieves what the mind believes.",
+        "The trick is to keep breathing.",
+        "There is a calm after every storm.",
+        "This feeling is temporary. It's not forever.",
+        "This is the day we've been waiting for. I am ready.",
+        "Today I will make magic happen."
     ]
     
     @State private var index: Int = 0
@@ -51,7 +87,6 @@ struct ContentView: View {
                     .font(.custom("EuphoriaScript-Regular", size: 60))
                     .multilineTextAlignment(.center)
                     .padding()
-                    //.font(.largeTitle)
                     .foregroundColor(.gray)
                     .lineSpacing(10)
                 
@@ -62,9 +97,8 @@ struct ContentView: View {
                         newLoad()
                         index = 0
                     } else {
-                    index += 1
+                        index += 1
                     }
-                    print(index)
                 }
                 .font(.custom("EuphoriaScript-Regular", size: 25))
                 .frame(width: 70, height: 20)
@@ -75,25 +109,12 @@ struct ContentView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 5))
             }
             .onAppear(perform: newLoad)
-            .onAppear(perform: viewDidLoad)
         }
     }
     
     func newLoad() {
         affirmations.shuffle()
     }
-    
-    func viewDidLoad() {
-            
-            for family: String in UIFont.familyNames
-            {
-                print(family)
-                for names: String in UIFont.fontNames(forFamilyName: family)
-                {
-                    print("== \(names)")
-                }
-            }
-        }
 }
 
 struct ContentView_Previews: PreviewProvider {

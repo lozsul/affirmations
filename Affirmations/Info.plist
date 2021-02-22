@@ -22,10 +22,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>OvertheRainbow-Regular.ttf</string>
 		<string>EuphoriaScript-Regular.ttf</string>
-		<string>RougeScript-Regular.ttf</string>
-		<string>Qwigley-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
